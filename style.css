@@ -1,0 +1,53 @@
+.styled-table {
+  border-top: 6px solid #000;
+  border-bottom: 6px solid #000;
+  border-right: 10px solid #000;
+  border-left: 10px solid #000;
+
+  width: 600px;
+  height: 600px;
+  border-collapse: collapse;
+  border-spacing: 0px;
+
+  /* width: min (100% - 40px, 1340px); /* Ширина контейнера з максимальним обмеженням 1340px */
+  /*margin-inline: auto; /* Автоматичний відступ з обох боків для центрування */
+}
+
+.styled-table td {
+  border: 11px solid #000;
+  padding: 5px;
+  /*border-collapse: collapse;
+  border-spacing: 0px;*/
+}
+
+.cell-one {
+  background-color: red;
+}
+
+.cell-two {
+  background-color: red;
+}
+
+.cell-three {
+  background-color: yellow;
+}
+
+.cell-four {
+  background-color: yellow;
+}
+
+.cell-five {
+  background-color: yellow;
+}
+
+.cell-six {
+  background-color: black;
+}
+
+.cell-seven {
+  background-color: #000;
+}
+
+.cell-eigth {
+  background-color: blue;
+}
